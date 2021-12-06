@@ -1,0 +1,20 @@
+service: lambda-sqs-test
+provider:
+  name: aws
+  runtime: go1.x
+package:
+  exclude:
+    - ./**
+  include:
+    - ./bin/**
+functions:
+  main-program:
+    handler: bin/main-program
+    events:
+      - http:
+          path: /
+          method: get
+  sqs-handler:
+    handler: bin/sqs-handler
+    events:
+      - sqs: replace with your sqs arn
