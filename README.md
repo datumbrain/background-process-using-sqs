@@ -1,5 +1,5 @@
-# Running Lambda Asynchorously Using Amazon SQS
-Here we are going to use `Amazon SQS` to run labmbda in background
+# Background Processes in Lambda Using Amazon SQS
+Here we are going to use `Amazon SQS` to run background processes in Lambda
 
 ## Prerequisites
 - You’ll need an AWS account for this. If you don’t yet have one, [sign up for a free account here](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all).
